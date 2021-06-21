@@ -2,7 +2,9 @@
 #Snippets  for Xcode
 
 ###Stop typing boilerplate code!This package contains the Xcode code snippets live templates I use.
-####install1. make install_snippets2. Then relaunch Xcode.
+####install
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/LiZunYuan/CodeSnippets/master/shell/install.sh)"
 
 #####remove
 1. make uninstall_snippets
