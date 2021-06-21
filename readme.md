@@ -1,22 +1,21 @@
+# Snippets  for Xcode
 
-#Snippets  for Xcode
-
-###Stop typing boilerplate code!This package contains the Xcode code snippets live templates I use.
-####install
+### Stop typing boilerplate code!This package contains the Xcode code snippets live templates I use.
+#### install
 1 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/LiZunYuan/CodeSnippets/master/shell/install.sh)"
 ```
 2 Then relaunch Xcode.
 
-#####remove
+##### remove
 1 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/LiZunYuan/CodeSnippets/master/shell/uninstall.sh)"
 ```
 
 2 Then relaunch Xcode.
-#Introduction
+# Introduction
 <!--***-->
 
 
@@ -88,29 +87,29 @@ D3B7BE53-9A14-42F8-94D9-6B273C29B338.codesnippet
 -->	
 	
 
-####propa
+#### propa
 	@property (nonatomic, assign) <#type#> *<#variable#>;
 9C79A834-2411-4227-B70F-63D2807D29B8.codesnippet
 
 
-####propc
+#### propc
 	@property (nonatomic, copy) <#type#> *<#variable#>;
 34BC794F-28F4-48E9-A86D-44C3013DE167.codesnippet
 
 
 
-####propw
+#### propw
 	@property (nonatomic, weak) <#type#> *<#variable#>;
 810AEB15-97CF-4207-8B2E-CC3FAFC60EFE.codesnippet
 
 
 
-####props
+#### props
 	@property (nonatomic, strong) <#type#> *<#variable#>;
 718740CD-AF47-4C93-8B58-C9D8F58B1330.codesnippet
 
 
-####ws
+#### ws
 	__weak typeof(self) weakSelf = self;
 042C6FCB-ABA2-4E9C-BB5A-AA75873428C6.codesnippet
 
@@ -135,13 +134,13 @@ B458146A-937C-4B33-96C8-34BE8B9B0CBE.codesnippet-->
 
 
 
-###interface
+### interface
 	@interface <#method#>()
 	
 	@end
 8D68DFE7-69E7-46E6-B4F0-F3C5EEC1BC12.codesnippet
 
-###sharedInstance
+### sharedInstance
 	+ (instancetype)sharedInstance
 	{
 	    static id sharedInstance = nil;
@@ -153,17 +152,17 @@ B458146A-937C-4B33-96C8-34BE8B9B0CBE.codesnippet-->
 	}
 45D5535E-44FA-491F-8E4B-3251A46D5372.codesnippet
 
-###pragma
+### pragma
 	#pragma mark - <#Label#>
 4153CD73-5499-4668-B452-128583FC6848.codesnippet
 
 
-###notification-add
+### notification-add
     [[NSNotificationCenter defaultCenter] addObserver: self selector:@selector(<#method#>:) name:<#notificationName#> object:nil];
 91A506E0-6D5F-47CF-826B-D308C68D33A8.codesnippet
-###notification-remove
+### notification-remove
     [[NSNotificationCenter defaultCenter] removeObserver:self name:<#notificationName#> object:<#nil#>];
 17E52D66-5DEC-4AB6-A255-4352CFD38BE5.codesnippet
-###notification-post
+### notification-post
 	 [[NSNotificationCenter defaultCenter] postNotificationName:<#notificationName#> object:nil userInfo:<#nil#>];
 45E738C9-F126-4C72-93C4-911F094C63F9.codesnippet
