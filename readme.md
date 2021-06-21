@@ -3,15 +3,19 @@
 
 ###Stop typing boilerplate code!This package contains the Xcode code snippets live templates I use.
 ####install
-
+1 
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/LiZunYuan/CodeSnippets/master/shell/install.sh)"
+```
+2 Then relaunch Xcode.
 
 #####remove
-1. make uninstall_snippets
-2. Then relaunch Xcode.
-<!--#####Snippets path
-	~/Library/Developer/Xcode/UserData/CodeSnippets-->
+1 
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/LiZunYuan/CodeSnippets/master/shell/uninstall.sh)"
+```
 
+2 Then relaunch Xcode.
 #Introduction
 <!--***-->
 
